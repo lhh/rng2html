@@ -25,6 +25,5 @@ SHAREDOBJS= zalloc.o
 ${TARGET1}: ${SHAREDOBJS} ${OBJS1}
 	$(CC) -o $@ $^ $(LDFLAGS)
 
-
 clean:
-	rm -f *.o *~
+	rm -f *.o *~ ${TARGET1}
