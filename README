@@ -1,0 +1,4 @@
+Converts a STABLE3 cluster.rng to a HTML page that can be clicked
+around.
+
+This requires glib2-devel to compile and glib2 to run.
